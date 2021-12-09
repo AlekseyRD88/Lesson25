@@ -48,6 +48,7 @@ html {
   font-size: 20px;
   line-height: 24px;
   font-weight: 300px;
+  margin-bottom: 33px;
 }
 .price-card__price {
   background: #5BB189;
