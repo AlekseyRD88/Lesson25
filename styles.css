@@ -16,6 +16,12 @@ html {
 
 .price-tables {
   display: flex;
+  margin-top: 115px;
+  margin-bottom: 115px;
+}
+
+.price-card__basic {
+  margin-left: 132px;
 }
 
 .price-card {
