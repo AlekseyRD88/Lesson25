@@ -55,9 +55,7 @@ html {
   font-size: 55px;
   line-height: 67px;
   color: #FFFFFF;
-  padding-top: 19px;
-  padding-bottom: 19px;
-  height: 105px;
+  padding: 19px 110px;
 }
 .price-card__business-price {
   background: #3A6BA5;
