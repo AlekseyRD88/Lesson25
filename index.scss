@@ -16,6 +16,8 @@ html {
    
 }
 .price-card {
+   margin-top: 115px;
+   margin-bottom: 115px;
    width: 380px;
    height: 770px;
    background: #334247;
@@ -45,7 +47,7 @@ html {
       margin-top: 0;
       font-size: 20px;
       line-height: 24px;
-      font-weight: 100;
+      font-weight: normal;
       margin-bottom: 33px;
    }
    &__price {
@@ -116,6 +118,7 @@ html {
       height: 40px;
       margin-top: 55px;
       margin-bottom: 40px;
+      
    }
    &__business-order-btn {
       background: #3A6BA5;
