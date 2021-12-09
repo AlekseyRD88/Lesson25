@@ -45,7 +45,7 @@ html {
       margin-top: 0;
       font-size: 20px;
       line-height: 24px;
-      font-weight: 300px;
+      font-weight: normal;
       margin-bottom: 33px;
    }
    &__price {
@@ -55,6 +55,7 @@ html {
       line-height: 67px;
       color: #FFFFFF;
       padding-top: 19px;
+      padding-bottom: 19px;
       height: 105px;
    }
    &__business-price {
