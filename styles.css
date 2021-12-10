@@ -18,21 +18,12 @@ body {
 }
 
 .price-card {
+  width: 380px;
   background: #334247;
   text-align: center;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   margin-right: 18px;
   color: #FFFFFF;
-}
-.price-card__price-ribbon {
-  background: #DC3F45;
-  transform: rotate(-45deg);
-}
-.price-card__price-ribbon-text {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 17px;
-  text-align: center;
 }
 .price-card__title {
   font-size: 35px;
@@ -107,6 +98,10 @@ body {
   height: 40px;
   margin-top: 39px;
   margin-bottom: 40px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+  padding-left: 27px;
+  padding-right: 27px;
 }
 .price-card__business-order-btn {
   background: #3A6BA5;
