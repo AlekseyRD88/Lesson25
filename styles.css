@@ -13,6 +13,8 @@ body {
 }
 
 .price-tables {
+   margin: 0;
+   padding: 0;
   display: flex;
   margin: auto;
 }
@@ -23,6 +25,7 @@ body {
   text-align: center;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
   color: #FFFFFF;
+  margin-right: 18px;
 }
 .price-card__title {
   font-size: 35px;
@@ -97,20 +100,16 @@ body {
   height: 40px;
   margin-top: 39px;
   margin-bottom: 40px;
-  padding-top: 11px;
-  padding-bottom: 12px;
-  padding-left: 27.98px;
-  padding-right: 26.74px;
+  
 }
 .price-card__business-order-btn {
   background: #3A6BA5;
-  padding-right: 26.63px;
+  
 }
 .price-card__webshop-order-btn {
   background: #EC632A;
   margin-bottom: 37px;
-  padding-left: 26.98;
-  padding-right: 27.98;
+  
 }
 
 /*# sourceMappingURL=styles.css.map */
