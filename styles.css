@@ -13,19 +13,23 @@ body {
 }
 
 .price-tables {
-   margin: 0;
-   padding: 0;
+  margin: 0;
+  padding: 0;
   display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
 
 .price-card {
+  margin: 0;
+  padding: 0;
   width: 380px;
   background: #334247;
   text-align: center;
   box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
-  color: #FFFFFF;
   margin-right: 18px;
+  color: #FFFFFF;
 }
 .price-card__title {
   font-size: 35px;
@@ -46,7 +50,8 @@ body {
   font-size: 55px;
   line-height: 67.05px;
   color: #FFFFFF;
-  padding: 19px 110px;
+  padding-top: 19px;
+  padding-bottom: 19px;
 }
 .price-card__business-price {
   background: #3A6BA5;
@@ -96,20 +101,17 @@ body {
   font-size: 14px;
   line-height: 17px;
   color: #FFFFFF;
-  width: 154.63px;
+  width: 154px;
   height: 40px;
   margin-top: 39px;
   margin-bottom: 40px;
-  
 }
 .price-card__business-order-btn {
   background: #3A6BA5;
-  
 }
 .price-card__webshop-order-btn {
   background: #EC632A;
   margin-bottom: 37px;
-  
 }
 
 /*# sourceMappingURL=styles.css.map */
