@@ -119,10 +119,13 @@ body {
    position: relative;
    overflow: hidden;
    &__red{
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 17px;
    background: #DC3F45;
    position: absolute;
    top: 30px;
-   left: 270px;
+   left: 265px;
    width: 147px;
    height: 25px;
    text-align: center;
