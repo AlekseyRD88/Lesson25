@@ -6,24 +6,16 @@ html {
 }
 body {
    display: flex;
-   background-color: #141b1c;
    min-height: 100vh;
-   min-width: 100vw;
+   background-color: #141b1c;
 }
 
 .price-tables {
-   margin: 0;
-   padding: 0;
-   display: flex;
-   justify-content: center;
-   align-items: center;
    margin: auto;
+   display: flex;
 }
 
 .price-card {
-   justify-content: center;
-   margin: 0;
-   padding: 0;
    width: 380px;
    height: 770px;
    background: #334247;
