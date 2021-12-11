@@ -7,15 +7,12 @@ html {
 body {
    display: flex;
    min-height: 100vh;
-   min-width: 100vw;
    background-color: #141b1c;
 }
-
 .price-tables {
    margin: auto;
    display: flex;
 }
-
 .price-card {
    width: 380px;
    height: 770px;
@@ -24,6 +21,7 @@ body {
    box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.087466);
    margin-right: 18px;
    color: #FFFFFF;
+   
    &__title {
       font-size: 35px;
       line-height: 43px;
@@ -115,4 +113,21 @@ body {
       background: #EC632A;
       margin-bottom: 37px;
    }
+}
+
+.price-card-ribbon {
+   position: relative;
+   overflow: hidden;
+   &__red{
+   background: #DC3F45;
+   position: absolute;
+   top: 30px;
+   left: 270px;
+   width: 147px;
+   height: 25px;
+   text-align: center;
+   line-height: 25px;
+   transform: rotate(45deg);
+   overflow: hidden;
+}
 }

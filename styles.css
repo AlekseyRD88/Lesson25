@@ -9,7 +9,6 @@ html {
 body {
   display: flex;
   min-height: 100vh;
-  min-width: 100vw;
   background-color: #141b1c;
 }
 
@@ -108,6 +107,23 @@ body {
 .price-card__webshop-order-btn {
   background: #EC632A;
   margin-bottom: 37px;
+}
+
+.price-card-ribbon {
+  position: relative;
+  overflow: hidden;
+}
+.price-card-ribbon__red {
+  background: #DC3F45;
+  position: absolute;
+  top: 30px;
+  left: 270px;
+  width: 147px;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  transform: rotate(45deg);
+  overflow: hidden;
 }
 
 /*# sourceMappingURL=styles.css.map */
